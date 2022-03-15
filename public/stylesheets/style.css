@@ -6,3 +6,51 @@ body {
 a {
   color: #00b7ff;
 }
+
+h2 {
+  background-color: rgba(233, 150, 122, 0.678);
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+#form-container {
+
+  margin: 16px;
+  margin: 16px;
+  position:absolute;
+  background-color: rgb(231, 253, 246);
+
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.form-input input, label {
+  width: 70%;
+  display: block;
+  color: #2f2f2f;
+
+
+  padding: 16px;
+  margin: 16px;
+  font-size: 24px;
+}
+
+.form-input input {
+  background-color: rgba(165, 42, 42, 0.472);
+}
+
+
+.btn {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  background-color: blueviolet;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 12px;
+
+}
